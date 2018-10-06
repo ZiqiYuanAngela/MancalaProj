@@ -1,4 +1,12 @@
-package mancalagame;
+/**
+ * SJSU Spring 2018 CS 151
+ * Team Project Mancala
+ * @author Ziqi Yuan, Brandon Zhou, Pratyusha Pogaru
+ * @version 1.0
+ * @since 04/05/2018
+ */
+
+
 
 //Modeling pits
 public class Pit extends Mancala {
@@ -9,7 +17,8 @@ public class Pit extends Mancala {
 	}
 	
 	public void removeAllS() {
-		super.SetZero();
+		super.SetNumber(0);
 	}
 
 }
+
